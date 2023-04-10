@@ -1,0 +1,117 @@
+body{
+    background-color: darkgray;
+  }
+  .outside{
+      background-color: lightgray;
+      height:720px;
+      width:60%;
+      margin-left: 20%;
+      border-top:5px solid blue;
+      border-radius:10px;
+     
+  }
+ .button{
+    
+    margin-left:10%;
+    margin-top:4%;
+    height:50px;
+    width:420px;
+    background-color: rgb(119, 156, 252);
+    border-radius:10px;
+  }
+  .add, .update, .delete, .retrive{
+    margin:10px 20px;
+    height:30px;
+    width:60px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+  }
+  h2{
+    text-align:center;
+    color:red;
+    background-color: yellow;
+    margin:100px;
+  }
+  #hide_add{
+    position:fixed;
+    margin-top:20px;
+    margin-left:60px;
+    height: 600px;
+    width:760px;
+    background-color: whitesmoke;
+    border-top:2px solid green;
+    border-radius:10px;
+     display:none;
+  }
+  #hide_update{
+    position:fixed;
+    margin-top:20px;
+    margin-left:60px;
+    height: 600px;
+    width:760px;
+    background-color: whitesmoke;
+    border-top:2px solid green;
+    border-radius:10px;
+     display:none;
+  }
+  #hide_delete{
+    position:fixed;
+    margin-top:20px;
+    margin-left:60px;
+    height: 600px;
+    width:760px;
+    background-color: whitesmoke;
+    border-top:2px solid green;
+    border-radius:10px;
+     display:none;
+  }
+  #hide_retrive{
+    position:fixed;
+    margin-top:20px;
+    margin-left:60px;
+    height: 600px;
+    width:760px;
+    background-color: whitesmoke;
+    border-top:2px solid green;
+    border-radius:10px;
+     display:none;
+  }
+  #form_add{
+       text-align: center;
+       margin-top:30px;
+  }
+  #form_update{
+    text-align: center;
+    margin-top:30px;
+}
+#form_delete{
+text-align: center;
+margin-top:30px;
+}
+#form_retrive{
+text-align: center;
+margin-top:30px;
+}
+  input{
+    height:40px;
+    width:500px;
+    
+    border-radius: 5px;
+  }
+  #btn{
+    width:200px;
+  }
+  select{
+    height:40px;
+    width:500px;
+    border-radius: 5px;
+  }
+  table, th, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-left:80px;
+        margin-top:10px;
+        background-color: lightblue;
+       
+    }
